@@ -3,14 +3,17 @@ Final project for MLDM course. (kaggle competition) <br/>
 My first competetition in Kaggle.<br/> 
 The competition: Mechanisms of Action (MoA) Prediction <br/>
 The link: https://www.kaggle.com/c/lish-moa/overview
+# Overview of the project
+Identify a protein target associated with a disease and develop a molecule that can modulate that protein target. MoA - biological activity of a given molecule.  
 # Data
-Training set consists of 23814 samples and 876 features(including id's of patients), target consists of 206 features. So it is multilabel classification task. <br/>
+Training set consists of 23814 samples and 876 features(including id's of patients), target consists of 206 features. So it is multilabel classification task. 
 <li>Training features:</li> 
 <li> g-0 - g-771 gene expression</li>
 <li>c-0 -c-100 - cell viablility </li>
 <li>cp_time - treatment duration(24, 48, 72 hours) </li>
 <li>cp_dose - dose(high or low)</li>
 <li>cp_type - sample treated with compounds or with control perturbation</li>
+
 # Files
 data_analysis_features_interactions.ipynb and data_analysis_individual_features.ipynb analysis the given dataset </br>
 final.ipynb - nn model
